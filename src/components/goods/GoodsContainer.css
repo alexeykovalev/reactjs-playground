@@ -1,0 +1,44 @@
+.search-bar {
+  margin-top: 10px;
+}
+
+.search-bar label {
+  display: block;
+  margin-top: 5px;
+}
+
+.search-bar input[type="text"] {
+  font-size: 1.2em;
+}
+
+.category-container {
+  margin-top: 8px;
+  display: block;
+  /* overflow: hidden; */
+}
+
+.clear:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.category-name {
+  font-weight: bold;
+}
+
+.item-names {
+  width: 50%;
+  float: left;
+}
+
+.item-prices {
+  width: 50%;
+  float: right;
+}
+
+.item-names > p, .item-prices > p  {
+  margin: 5px;
+}
+
+
